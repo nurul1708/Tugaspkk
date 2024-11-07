@@ -1,0 +1,123 @@
+
+*{padding:0; margin:0; box-sizing: border-box; font-family:sans-serif;}
+header{
+     width: 100vw;
+	 min-height: 100vh;
+	 background: #ffff;
+	 font-size: 1.2rem;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}	 
+.container {
+	background: #ffff;
+	max-width: 800px;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0.5rem 1.5rem;
+}
+.left {
+	flex-basis: 50%;
+}	
+.right {
+	flex-basis: 50%;
+}	
+form{
+	padding: 1rem;
+	
+}	
+h3{
+	margin-top: 1rem;
+	color: #2c3e50;
+}	
+form input[type="text"]{
+	width: 100%;
+	padding: 0.5rem 0.7rem;
+	margin: 0.5rem 0;
+	outline: none;
+}	
+#zip{
+	display: flex;
+	margin-top: 0.5rem;
+}	
+#zib select{
+	padding: 0.5rem 0.7rem;
+}
+#zip input[type="number"]{
+	padding: 0.5rem 0.7rem;
+	margin-left: 5px;
+}	
+input[type="submit"]{
+	width: 100%;
+	padding: 0.7rem 1.5rem;
+	background: #d90429;
+	color: white;
+	border: none;
+	outline: none;
+	margin-top: 1rem;
+	cursor: pointer;
+	
+}	
+input[type="submit"]:hover{
+	background: #020102;
+}   
+
+.footer {
+	background: var(--text-color);
+	color: #f6f6f6;
+	border-top: 2px solid var(--main-color);
+}	
+.footer-box ul{
+	list-style: none;
+}	
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	width: 30%;
+	padding: 0 5px;
+}	
+.footer-container .logo {
+	color: var(--bg-color);
+	margin-bottom: 1rem;
+}
+.footer-container .footer-box{
+	display: flex;
+	flex-direction: colum;
+	flex-wrap: wrap;
+}	
+.sosial {
+	display: flex;
+	align-items: center;
+}
+.sosial a{
+	font-size: 24px;
+	color: var(--bg-color);
+	margin-right: 1rem;
+}
+.sosial a:hover{
+    color: var(--main-color);
+}
+.footer-box h3{
+	display: flex;
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+	flex-wrap: wrap;
+}	
+.footer-box a ,
+.footer-box p{
+	color: #818181;
+	margin-bottom: 10px;
+}	
+.footer-box a:hover{
+	color: var(--main-color);
+}
+.copyright{
+	padding: 20px;
+	text-align: center;
+	color: var(--bg-color);
+	background: var(--text-color);
+}	
